@@ -296,6 +296,76 @@
 
 
 
+.blogs .slide{
+    background: rgb(255, 255, 255,.1);
+    margin-bottom: 7rem;
+    padding: 1.5rem;
+
+    &:hover .image video{
+transform: scale(1.1);
+    }
+}
+.blogs .slide .content h3{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.5;
+}
+.blogs .slide .content p{
+    font-size: 1.5rem;
+    color: rgb(255,255,255, .6);
+    line-height: 2;
+    padding: 1rem 0;
+}
+.blogs .slide .content{
+    padding: 2rem;
+}
+.blogs .slide .content .link{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.blogs .slide .content span{
+    color: #fff;
+    padding: 0 1rem;
+}
+.blogs .slide .content .link a{
+    color: red;
+
+    &:hover{
+        color: #fff;
+    }
+}
+.blogs .slide .image{
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+}
+.blogs .slide .image video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogs .swiper-pagination{
+    color: var(--primary);
+    padding: 1rem ;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
